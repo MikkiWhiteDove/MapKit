@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC06C23028CF41F800597CAB /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC06C22F28CF41F800597CAB /* Extensions.swift */; };
 		DCC854FF28C69044002D7BF1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC854FE28C69044002D7BF1 /* AppDelegate.swift */; };
 		DCC8550128C69044002D7BF1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC8550028C69044002D7BF1 /* SceneDelegate.swift */; };
 		DCC8550828C69045002D7BF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCC8550728C69045002D7BF1 /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DC06C22F28CF41F800597CAB /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		DCC854FB28C69044002D7BF1 /* MapAppUIKitSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapAppUIKitSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCC854FE28C69044002D7BF1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DCC8550028C69044002D7BF1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -84,6 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				DCC8551428C691D7002D7BF1 /* UIKitVC.swift */,
+				DC06C22F28CF41F800597CAB /* Extensions.swift */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -181,6 +184,7 @@
 				DCC854FF28C69044002D7BF1 /* AppDelegate.swift in Sources */,
 				DCC8550128C69044002D7BF1 /* SceneDelegate.swift in Sources */,
 				DCC8551528C691D7002D7BF1 /* UIKitVC.swift in Sources */,
+				DC06C23028CF41F800597CAB /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

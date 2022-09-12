@@ -26,11 +26,8 @@ class MainTBVC: UITabBarController {
     
     func navBar()-> UIViewController {
         let vc = UIKitVC()
-//        vc.navigationItem.title = "UIKit Map"
-//        vc.navigationController?.navigationBar.prefersLargeTitles = true
-//        let navController = UINavigationController(rootViewController: vc)
-        
-//        return navController
+        vc.navigationItem.title = "UIKit Map"
+        vc.navigationController?.navigationBar.prefersLargeTitles = true
         return vc
     }
     func navBarLike()-> UIViewController {
